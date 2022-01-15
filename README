@@ -1,0 +1,26 @@
+CONTENTS OF THIS FILE
+
+* Introduction
+
+* Requirements
+
+* Running Instructions
+
+INTRODUCTION
+
+The file unfairDice.py simulates the rolling of a biased die with n sides. This is accomplished by using a list of n probabilities, one for each side of the die. A histogram can also be printed for the die. 
+
+REQUIREMENTS
+
+The following module must be imported to run the program
+
+* random : Built-in Python module to generate random numbers
+
+RUNNING INSTRUCTIONS
+
+* If run from the command line, unfairDice.py will invoke a main() function which generates histograms for test inputs. In order to run from the command line, unfairDice.py must be in the current working directory and the command "python3 unfairDice.py" must be given on the command line. 
+* To get a list of m rolls made on an n sided die, the biased_rolls() function must be called. As arguments, this function takes a list of n probabilities, the random seed, and m - the number of rolls to be made. 
+* To print a histogram of the rolls which were made, to the standard output, the draw_histogram() function must be called. As arguments, this function takes the number of sides of the die, the list of rolls which were made, and the maximum width of the histogram bars.
+
+
+
